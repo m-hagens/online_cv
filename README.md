@@ -1,36 +1,24 @@
-This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+# Online Curriculum Vitae
 
-I have made this into a Jekyll Theme.
-**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/).
+Github Jekyll Theme for your Curriculm Vitae.  
+Based on a design by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/) and Sharu725 at [github](http://github.com/sharu725/online-cv/).
 
-The default theme would look like this:
+## Local installation
+```bash
+gem install jekyll bundler
+cd online-cv
+bundle exec jekyll serve
+# => Browse to http://localhost:4000
+```
 
-![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme.png)
+## Credit
+[Roboto](http://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google's visual language, Material Design.
 
-The theme is responsive:
 
-![online cv responsive Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-responsive-jekyll-theme.png)
+[Source Sans Pro](http://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
 
-There are 6 color schemes available:
+[Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
 
-| Default | Style 2 | Style 3 |
-|---------|---------|---------|
-| <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-1.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-2.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-3.jpg" width="300"/> |
+[Font Awesome](https://fontawesome.com/) is the internet's most popular icon toolkit redesigned and built from scratch.
 
-| Style 4 | Style 5 | Style 6 |
-|---------|---------|---------|
-| <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-4.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-5.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-6.jpg" width="300"/> |
-
-## Installation
-
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at https://username.github.io/online-cv/
-
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+[jQuery](https://jquery.com/) the Write Less, Do More, JavaScript Library.
