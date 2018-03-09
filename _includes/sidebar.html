@@ -18,7 +18,15 @@
    <div class="contact-container container-block">
        <ul class="list-unstyled contact-list">
 
-          {% if site.email %}
+           {% if site.dob %}
+           <li class="dob"><i class="fa fa-birthday-cake"></i>{{site.dob}}</li>
+           {% endif %}
+
+           {% if site.gender %}
+           <li class="gender"><i class="fa fa-mars"></i>{{site.gender}}</li>
+           {% endif %}
+
+            {% if site.email %}
            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
            {% endif %}
 

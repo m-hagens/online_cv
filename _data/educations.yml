@@ -1,16 +1,27 @@
 - education:
-  degree: MSc in Computer Science
-  university: University of London
-  time: 2011 - 2012
-  details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  degree: B. Sc. Applied Economic Sciences
+  university: University of Antwerp, Belgium
+  time: 2013 - 2018
+  details: "Thesis: El Bouddounti, A., Lemmens, S., Van den Nyden, M., van Dijk, L. (2017).
+    *Optimalisering van werknemersefficiëntie in een warehouse met behulp van informatiesystemen*
+    [Optimization of employee efficiency in a warehouse using information systems]."
 - education:
-  degree: BSc in Applied Mathematics
-  university: Bristol University
-  time: 2007 - 2011
-  details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  degree: B. Sc. Computer Engineering
+  university: University of Barcelona, Spain
+  time: 2010 - 2013
+  details: "Not completed due to parent's relocation to Belgium"
+- education:
+  degree: B. Sc. Computer Engineering
+  university: Universitat Politècnica de Catalunya, Spain
+  time: 2008 - 2010
+  details: ""
+- education:
+  degree: Equivalent to "A" Levels
+  university: Colegio Luther King, Canary Islands, Spain
+  time: 2004 - 2008
+  details: ""
+- education:
+  degree: Grammar School
+  university: OLVC, Antwerp, Belgium
+  time: 2002 - 2004
+  details: ""

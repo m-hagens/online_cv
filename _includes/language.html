@@ -6,6 +6,7 @@
     <ul class="list-unstyled interests-list">
       {%for language in site.data.languages %}
       <li>{{ language.idiom }} <span class="lang-desc">({{ language.level }})</span></li>
+      <li><span class="lang-desc">{{ language.details }}</span></li>
       {% endfor %}
     </ul>
 

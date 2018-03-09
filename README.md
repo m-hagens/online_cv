@@ -1,13 +1,13 @@
 # Online Curriculum Vitae
 
-Github Jekyll Theme for your Curriculm Vitae.  
+Github Jekyll Theme for your Curriculum Vitae.  
 Based on a design by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/) and Sharu725 at [github](http://github.com/sharu725/online-cv/).
 
 ## Local installation
 ```bash
 gem install jekyll bundler
 cd online-cv
-bundle exec jekyll serve
+jekyll serve
 # => Browse to http://localhost:4000
 ```
 
