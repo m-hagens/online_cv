@@ -1,23 +1,27 @@
-intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+intro: "For more up-to-date open-source projects and code please check <a href='https://github.com/devbynyden'>GitHub.</a>"
 projects:
   - project:
-    title: Velocity
-    link: "#hook"
+    title: News bynyden
+    link: "#"
     tagline: "A responsive website template designed to help startups promote, market and sell their products."
   - project:
-    title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    title: Fruxino
+    link: "http://verswinkelfruxino.com"
+    tagline: "Responsive website for local healthy food shop. Project includes template, e-commerce and custom plugins."
   - project:
-    title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    title: Moustache Pop
+    link: "http://moustachepop.be"
+    tagline: "Simple and elegant wordpress template for local bar events website."
   - project:
-    title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    title: Henri Vandekerckhove
+    link: "http://henri-vandekerckhove.com/"
+    tagline: "Responsive website for an independent art broker."
   - project:
-    title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    title: Wild Heart Ranch
+    link: "http://wildheartranch.be"
+    tagline: ""
+discontinued:
+  - project:
+    title: Bandik
+    link: "http://bandik.net"
+    tagline: "Social networking iOS platform for students in Spain."

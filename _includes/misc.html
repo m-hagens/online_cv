@@ -1,0 +1,31 @@
+{% if site.data.misc %}
+<section class="section misc-section">
+
+  <h2 class="section-title"><i class="fa fa-trophy"></i>Miscellaneous</h2>
+
+  {% if site.data.misc.intro %}
+  <div class="intro">
+      <p>{{ site.data.misc.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for activity in site.data.misc.activities %}
+    <div class="item">
+
+        <div class="upper-row">
+          <h3 class="job-title"><a href="{{ activity.link }}">{{ activity.title }}</a></h3>
+        {% if activity.tagline %}
+          <div class="time">{{ activity.tagline }}</div>
+        {% endif %}
+        </div>
+      {% if activity.description %}
+      <div class="details">
+        <p>{{ activity.description }}</p>
+      </div><!--//description>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
