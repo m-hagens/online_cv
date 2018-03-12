@@ -334,3 +334,69 @@ p {
 .go-top:hover {
 
 }
+
+@media print {
+
+    body {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .job-title, .project-title a, .publication-title {
+        font-size: 14px !important;
+    }
+
+    .main-wrapper .projects-section .item, .skillset .level-title, .main-wrapper .upper-row, .skillset .item, .main-wrapper .section-title {
+        margin-bottom: 0;
+    }
+
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+        min-height: 100px;
+    }
+    .main-wrapper {
+        padding: 30px;
+    }
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .main-wrapper .section {
+        margin-bottom: 20px;
+    }
+
+    .go-top, .print-button, .copyright {
+        visibility: hidden;
+    }
+
+    .profile-container {
+        position: absolute;
+        right: 0;
+    }
+
+    .profile-img {
+        width: 100px;
+    }
+
+    .education-container {
+        position: absolute;
+        text-align: right;
+        right: 0;
+    }
+
+    .interests-list li, .contact-list li {
+        margin-bottom: 0 !important;
+    }
+
+    .footer {
+        visibility: hidden;
+        padding: 0;
+    }
+}
