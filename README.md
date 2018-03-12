@@ -17,8 +17,11 @@ jekyll serve
 
 [Source Sans Pro](http://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
 
+
 [Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
 
+
 [Font Awesome](https://fontawesome.com/) is the internet's most popular icon toolkit redesigned and built from scratch.
+
 
 [jQuery](https://jquery.com/) the Write Less, Do More, JavaScript Library.

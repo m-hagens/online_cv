@@ -320,3 +320,17 @@ p {
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
 /* styles.css */
+
+.go-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 1em;
+	display: none;
+}
+
+.go-top:hover {
+
+}

@@ -5,18 +5,31 @@
 
   <div class="skillset">
 
-    {% for skill in site.data.skills %}
-    <div class="item">
+    {% if site.data.skills.choice == 'skills' %}
+        {% for skill in site.data.skills.skills %}
+        <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+          <h3 class="level-title">{{ skill.name }}</h3>
 
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
 
-    </div><!--//item-->
-    {% endfor %}
+        </div><!--//item-->
+        {% endfor %}
+
+    {% elsif site.data.skills.choice == 'skillgroups' %}
+        {% for skill in site.data.skills.skillgroups %}
+        <div class="item">
+
+          <h3 class="level-title">{{ skill.name }}</h3>
+
+          {{ skill.info }}
+
+        </div><!--//item-->
+        {% endfor %}
+    {% endif %}
 
   </div>
 
