@@ -25,7 +25,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #087e8b;
+  color: #f28123;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -33,7 +33,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #ff5a5f;
+  color: #1a454f;
 }
 a:focus {
   text-decoration: none;
@@ -51,7 +51,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #087e8b;
+  background: #d34e24;
   position: absolute;
   right: 0;
   width: 280px;
@@ -167,7 +167,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #ff5a5f;
+  color: #d34e24;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -186,7 +186,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #ff5a5f;
+  background: #f28123;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -217,12 +217,12 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #adb4b4;
+  color: #38726c;
 }
 .main-wrapper .company,
 .main-wrapper .university {
   margin-bottom: 10px;
-  color: #ff5a5f;
+  color: rgba(56, 114, 108, 0.65);
 }
 .main-wrapper .project-title {
   font-size: 16px;

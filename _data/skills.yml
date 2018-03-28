@@ -33,10 +33,10 @@ skillgroups:
       info: "Microsoft Office, Vim, Atom, Git, Gitkraken, Postman, Xcode, Apache, Adobe Master Collection, Netbeans IDE"
     - skill:
       name: Frameworks
-      info: "Django, Wordpress, Slim, CodeIgniter, Bootstrap, jQuery"
+      info: "Django, WordPress, Slim, CodeIgniter, Bootstrap, jQuery"
     - skill:
       name: Databases
       info: "SQLite, MySQL, MariaDB, PostgreSQL"
     - skill:
       name: Extra
-      info: "Good understanding of Networking & Hardware interfaces, Virtual Machines, Computer & Server maintenance,"
+      info: "Good understanding of Networking & Hardware interfaces, Virtual Machines, Computer & Server maintenance"
