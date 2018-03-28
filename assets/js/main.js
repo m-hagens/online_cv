@@ -32,4 +32,23 @@ jQuery(document).ready(function($) {
 		$('html, body').animate({scrollTop: 0}, 300);
 	});
 
+    typer('#summary-typer')
+    .cursor({block: true, blink: 'soft', color: '#087e8b'})
+    .pause(2000)
+    .line('Hi, my name is Mats.')
+    .pause(500)
+    .back(16)
+    .continue('I\'m a developer.')
+    .pause(500)
+    .back(11)
+    .continue('n economist.')
+    .pause(500)
+    .back(16)
+    .continue(' might be your next employee.')
+    .pause(500)
+    .back('all')
+    .continue({container:'#hidden-summary'})
+    .end()
+    ;
+
 });

@@ -41,6 +41,9 @@ a:focus {
 p {
   line-height: 1.5;
 }
+#hidden-summary {
+    display: none;
+}
 .wrapper {
   background: #d34e24;
   max-width: 1000px;
@@ -398,5 +401,15 @@ p {
     .footer {
         visibility: hidden;
         padding: 0;
+    }
+
+    #hidden-summary {
+        display: contents;
+    }
+    #summary-typer {
+        display: none;
+    }
+    .btn-block {
+        display: none;
     }
 }

@@ -25,3 +25,5 @@ jekyll serve
 
 
 [jQuery](https://jquery.com/) the Write Less, Do More, JavaScript Library.
+
+[Typer](https://github.com/qodesmith/typer) the easy to use, choc-full-of-options, robust automated typing library.
