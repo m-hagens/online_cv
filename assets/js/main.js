@@ -1,4 +1,5 @@
 jQuery(document).ready(function($) {
+    var theme=0
 
     $('.level-bar-inner').css('width', '0');
 
@@ -22,10 +23,13 @@ jQuery(document).ready(function($) {
             var urlStyle = $('#theme-style')['0'].href.split('/');
             var baseUrlStyle = urlStyle.slice(0,-1).join('/');
             var themeId = '#theme-style';
-            if (urlStyle.pop() == 'bn-custom.css') {
+            if (theme == 0) {
+                changeStyle(themeId, baseUrlStyle, 'bn-custom1.css');
+            } else if (theme == 1) {
                 changeStyle(themeId, baseUrlStyle, 'bn-custom2.css');
             } else {
                 changeStyle(themeId, baseUrlStyle, 'bn-custom.css');
+                theme = 0;
             }
         }
     });
@@ -35,6 +39,7 @@ jQuery(document).ready(function($) {
             $(id)['0'].setAttribute('href', sheetBaseUrl + '/'+sheetUrl);
             $('body').show();
         });
+        theme += 1;
     }
 
     // Show or hide the sticky footer button

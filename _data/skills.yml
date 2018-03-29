@@ -38,5 +38,8 @@ skillgroups:
       name: Databases
       info: "SQLite, MySQL, MariaDB, PostgreSQL"
     - skill:
+      name: Package Managers
+      info: "Pacman, npm, pip, Bower, Homebrew, Chocolatey, Zypper, Composer"
+    - skill:
       name: Extra
       info: "Good understanding of Networking & Hardware interfaces, Virtual Machines, Computer & Server maintenance"

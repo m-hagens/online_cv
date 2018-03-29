@@ -54,17 +54,13 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-    background: linear-gradient(120deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 800% 100%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    position: absolute;
-    right: 0;
-    width: 280px;
-    height: 100%;
-    min-height: 800px;
-    color: #fff;
+  background: #087e8b;
+  position: absolute;
+  right: 0;
+  width: 280px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
 }
 .sidebar-wrapper a {
   color: #fff;
