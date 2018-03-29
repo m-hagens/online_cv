@@ -94,7 +94,7 @@ p {
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list .fas, .sidebar-wrapper .contact-list .fab  {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
@@ -105,7 +105,7 @@ p {
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .contact-list .email .fa {
+.sidebar-wrapper .contact-list .email .fas, .sidebar-wrapper .contact-list .location .fas {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
@@ -175,7 +175,7 @@ p {
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title .fa, .main-wrapper .section-title .fas, .main-wrapper .section-title .fab {
   width: 30px;
   height: 30px;
   margin-right: 8px;

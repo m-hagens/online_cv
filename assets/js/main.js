@@ -16,6 +16,27 @@ jQuery(document).ready(function($) {
 
     });
 
+    // Change stylesheet
+    $(document).keydown(function(event) {
+        if (event.key == 'c') {
+            var urlStyle = $('#theme-style')['0'].href.split('/');
+            var baseUrlStyle = urlStyle.slice(0,-1).join('/');
+            var themeId = '#theme-style';
+            if (urlStyle.pop() == 'bn-custom.css') {
+                changeStyle(themeId, baseUrlStyle, 'bn-custom2.css');
+            } else {
+                changeStyle(themeId, baseUrlStyle, 'bn-custom.css');
+            }
+        }
+    });
+
+    function changeStyle(id, sheetBaseUrl, sheetUrl) {
+        $.when($('body').fadeOut('2000')).then(function(){
+            $(id)['0'].setAttribute('href', sheetBaseUrl + '/'+sheetUrl);
+            $('body').show();
+        });
+    }
+
     // Show or hide the sticky footer button
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 200) {
@@ -32,6 +53,8 @@ jQuery(document).ready(function($) {
 		$('html, body').animate({scrollTop: 0}, 300);
 	});
 
+
+    // Typer animation
     typer('#summary-typer')
     .cursor({block: true, blink: 'soft', color: '#087e8b'})
     .pause(2000)
