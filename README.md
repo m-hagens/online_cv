@@ -14,9 +14,7 @@ jekyll serve
 ## Credit
 [Roboto](http://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google's visual language, Material Design.
 
-
 [Source Sans Pro](http://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
-
 
 [Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS.
 
@@ -27,3 +25,5 @@ jekyll serve
 [jQuery](https://jquery.com/) the Write Less, Do More, JavaScript Library.
 
 [Typer](https://github.com/qodesmith/typer) the easy to use, choc-full-of-options, robust automated typing library.
+
+[CSS Gradient](https://codepen.io/P1N2O/pen/pyBNzX) by [Manuel Pinto](https://manuelpinto.in/).
