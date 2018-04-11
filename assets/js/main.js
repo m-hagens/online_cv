@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
-    var theme=0
+    var theme=0;
+    var gradientUsed=0;
 
     $('.level-bar-inner').css('width', '0');
 
@@ -32,6 +33,15 @@ jQuery(document).ready(function($) {
                 theme = 0;
             }
         }
+        else if (event.key == 'x') {
+            var randIndex = gradientUsed;
+            while (randIndex == gradientUsed) {
+                randIndex = Math.floor(Math.random()*gradientList.length);
+            }
+            gradientUsed = randIndex;
+            //console.log(randIndex);
+            changeGradient(gradientList[randIndex]);
+        }
     });
 
     function changeStyle(id, sheetBaseUrl, sheetUrl) {
@@ -40,6 +50,26 @@ jQuery(document).ready(function($) {
             $('body').show();
         });
         theme += 1;
+    }
+
+    // Change Gradients
+    var gradientList = [
+        ["#40e0d0", "#ff8c00", "#ff0080"],
+        // Default Gradient
+        ["#EE7752", "#E73C7E", "#23A6D5", "#23D5AB"],
+        ["#00F260", "#0575E6"],
+        ["#a80077","#66ff00"],
+        ["#eea2a2", "#bbc1bf", "#57c6e1", "#b49fda", "#7ac5d8"]
+    ];
+
+    function changeGradient(colorList) {
+        $gradientProp = `linear-gradient(120deg, ${colorList.join(", ")})`
+        //console.log("changed");
+        //console.log($gradientProp);
+        $target = $('.sidebar-wrapper');
+        $target.css("background", $gradientProp);
+        $target.css("background-size", "800% 100%");
+        //$target.removeClass('animate');
     }
 
     // Show or hide the sticky footer button

@@ -1,5 +1,5 @@
 <!-- Use icons from fontawesome when you are adding new item in the contact list  -->
-<div class="sidebar-wrapper">
+<div class="sidebar-wrapper animate">
 
    <div class="profile-container">
 
@@ -25,6 +25,10 @@
 
            {% if site.data.info.gender %}
            <li class="gender"><i class="fas fa-mars"></i>{{site.data.info.gender}}</li>
+           {% endif %}
+
+           {% if site.data.info.license %}
+           <li class="license"><i class="fas fa-car"></i>{{site.data.info.license}}</li>
            {% endif %}
 
            {% if site.data.info.location %}
