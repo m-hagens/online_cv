@@ -21,6 +21,7 @@ jQuery(document).ready(function($) {
     // Change stylesheet
     $(document).keydown(function(event) {
         if (event.key == 'c') {
+            $('.sidebar-wrapper').removeAttr('style');
             var urlStyle = $('#theme-style')['0'].href.split('/');
             var baseUrlStyle = urlStyle.slice(0,-1).join('/');
             var themeId = '#theme-style';

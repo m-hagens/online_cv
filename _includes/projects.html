@@ -26,6 +26,24 @@
     </div><!--//item-->
   {% endfor %}
 
+  {% for project in site.data.projects.future %}
+    <div class="item">
+        <h2 class="section-title"><i class="fas fa-terminal"></i>Under Construction</h2>
+      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+      {% if project.languages %}
+      <br />
+          {% for language in project.languages %}
+          <span class="label label-info">{{language}}</span>
+          {% endfor %}
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
   {% for project in site.data.projects.discontinued %}
     <div class="item">
         <h2 class="section-title"><i class="fa fa-trash"></i>Discontinued</h2>

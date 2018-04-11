@@ -11,6 +11,10 @@ jekyll serve
 # => Browse to http://localhost:4000
 ```
 
+## Keyboard Shortcuts
+<kbd>c</kbd>: Change CSS files
+<kbd>x</kbd>: Change sidebar gradient
+
 ## Credit
 [Roboto](http://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google's visual language, Material Design.
 

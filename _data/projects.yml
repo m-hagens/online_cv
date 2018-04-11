@@ -1,14 +1,6 @@
 intro: "For more up-to-date open-source projects and code please check <a href='https://github.io/devbynyden'>GitHub</a>."
 projects:
   - project:
-    title: News bynyden
-    link: "#"
-    tagline: ""
-    languages:
-        - "Django"
-        - "Python"
-        - "Node.js"
-  - project:
     title: AntwerpKingsBot
     link: "https://github.com/devbynyden/AntwerpKingsBot"
     tagline: "Multipurpose Telegram bot."
@@ -53,3 +45,12 @@ discontinued:
     languages:
         - "PHP"
         - "iOS"
+future:
+  - project:
+    title: News bynyden
+    link: "#"
+    tagline: ""
+    languages:
+        - "Django"
+        - "Python"
+        - "Node.js"
