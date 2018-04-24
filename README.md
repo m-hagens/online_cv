@@ -12,7 +12,7 @@ jekyll serve
 ```
 
 ## Keyboard Shortcuts
-<kbd>c</kbd>: Change CSS files
+<kbd>c</kbd>: Change CSS files  
 <kbd>x</kbd>: Change sidebar gradient
 
 ## Credit

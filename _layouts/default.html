@@ -8,11 +8,25 @@ layout: compress
 {% include head.html %}
 
 <body>
+    <div class="alert alert-info alert-dismissible keyb-shortcuts" role="alert">
+        <button type="button" class="close help-close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="row">
+            <div class="col-md-4">
+                <strong>Keyboard Shortcuts:</strong><br />
+            </div>
+            <div class="col-md-4">
+                Press <kbd>x</kbd> to change the sidebar gradient, <br />
+                press <kbd>c</kbd> to change CSS Files.<br />
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-default" id="help-button"><i class="fas fa-question-circle"></i></button>
     <div class="wrapper">
+
         {% include sidebar.html %}
 
         <div class="main-wrapper">
-
            {{content}}
 
         </div><!--//main-body-->

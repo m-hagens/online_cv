@@ -43,6 +43,12 @@ p {
 #hidden-summary {
     display: none;
 }
+.keyb-shortcuts {
+    display: none;
+}
+#help-button {
+    float: right;
+}
 .wrapper {
   background: #d34e24;
   max-width: 1000px;
@@ -449,6 +455,12 @@ p {
         display: none;
     }
     .btn-block {
+        display: none;
+    }
+    .keyb-shortcuts {
+        display: none;
+    }
+    #help-button {
         display: none;
     }
 }

@@ -106,8 +106,16 @@ jQuery(document).ready(function($) {
     .continue(' might be your next employee.')
     .pause(500)
     .back('all')
-    .continue({container:'#hidden-summary'})
+    .continue({container:'#hidden-summary'}, 10000)
     .end()
     ;
+
+    // Help button
+    $('#help-button').on('click', function () {
+        $('.keyb-shortcuts').show();
+        $(this).hide();
+        // business logic...
+        //$btn.button('reset');
+    });
 
 });
