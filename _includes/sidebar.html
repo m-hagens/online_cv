@@ -58,6 +58,10 @@
            {% if site.data.info.npm %}
            <li class="npm"><i class="fab fa-npm"></i><a href="https://npmjs.com/~{{site.data.info.npm}}" target="_blank">{{site.data.info.npm}}</a></li>
            {% endif %}
+          
+           {% if site.data.info.keybase %}
+           <li class="keybase"><i class="fab fa-keybase"></i><a href="https://keybase.io/{{site.data.info.keybase}}" target="_blank">{{site.data.info.npm}}</a></li>
+           {% endif %}
 
            {% if site.data.info.twitter %}
            <li class="twitter"><i class="fab fa-twitter"></i><a href="https://twitter.com/{{site.data.info.twitter}}" target="_blank">{{site.data.info.twitter}}</a></li>
