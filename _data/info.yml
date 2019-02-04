@@ -1,5 +1,5 @@
 "#Profile information
-name: Marijn Hagens
+name: Marijn C. Hagens
 tagline: Full Stack Software Developer,<br>Analyst & Economist
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Fancy a creative mind for your next project? Search no further. My passion for technology & coding provided
@@ -9,7 +9,7 @@ summary: 'Fancy a creative mind for your next project? Search no further. My pas
 
 #sidebar links
 dob: 02/07/1992
-gender: Male
+gender: Female
 location: Antwerp, Belgium
 email: marijnhagens92@gmail.com
 license: "European category B"
