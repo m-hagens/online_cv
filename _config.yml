@@ -1,6 +1,6 @@
 # Site Settings
-title: Mats VdN Curriculum Vitae
-url: 'http://bynyden.com'
+title: Marijn C. Hagens Curriculum Vitae
+url: 'https://m-hagens.github.io'
 baseurl: '/online_cv' #change it according to your repository name
 about: False # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
@@ -18,7 +18,7 @@ style: bn-custom
 #education_in_main: True
 
 # Tracker
-analytics: UA-115376140-1
+#analytics: UA-115376140-1
 
 # Build settings
 encoding: "utf-8"
