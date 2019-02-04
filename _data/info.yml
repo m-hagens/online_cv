@@ -1,5 +1,5 @@
-#Profile information
-name: Mats VdN
+"#Profile information
+name: Marijn Hagens
 tagline: Full Stack Software Developer,<br>Analyst & Economist
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Fancy a creative mind for your next project? Search no further. My passion for technology & coding provided
@@ -8,16 +8,16 @@ summary: 'Fancy a creative mind for your next project? Search no further. My pas
     creativity are valued. Always keeping in consideration functionality, latest technology & programming standards.'
 
 #sidebar links
-dob: 15/09/1990
+dob: 02/07/1992
 gender: Male
 location: Antwerp, Belgium
-email: mats@bynyden.com
+email: marijnhagens92@gmail.com
 license: "European category B"
 #phone: 012 345 6789
-website: bynyden.com #do not add http://
+#website: bynyden.com #do not add http://
 #linkedin: alandoe
-github: devbynyden
-npm: devbynyden
-keybase: bynyden
+github: m-hagens
+#npm: devbynyden
+#keybase: bynyden
 #twitter: '@webjeda'
 #Update all the sections by editing the files inside _data folder.
