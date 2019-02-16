@@ -90,32 +90,4 @@ jQuery(document).ready(function($) {
 	});
 
 
-    // Typer animation
-    typer('#summary-typer')
-    .cursor({block: true, blink: 'soft', color: '#087e8b'})
-    .pause(2000)
-    .line('Hi, my name is Mats.')
-    .pause(500)
-    .back(16)
-    .continue('I\'m a developer.')
-    .pause(500)
-    .back(11)
-    .continue('n economist.')
-    .pause(500)
-    .back(16)
-    .continue(' might be your next employee.')
-    .pause(500)
-    .back('all')
-    .continue({container:'#hidden-summary'}, 10000)
-    .end()
-    ;
-
-    // Help button
-    $('#help-button').on('click', function () {
-        $('.keyb-shortcuts').show();
-        $(this).hide();
-        // business logic...
-        //$btn.button('reset');
-    });
-
 });

@@ -5,14 +5,18 @@ layout: default
 {% include career-profile.html %}
 
 {% if site.education_in_main %}
-    {% include education-section.html %}
+    {% include education.html %}
 {% endif %}
 
 {% include experience.html %}
 
-{% include projects.html %}
+{% if site.projects_in_main %}
+    {% include projects.html %}
+{% endif %}
 
-{% include publications.html %}
+{% if site.publications_in_main %}
+    {% include publications.html %}
+{% endif %}
 
 {% include skills.html %}
 

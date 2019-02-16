@@ -20,26 +20,5 @@ skills:
       level: 60%
 skillgroups:
     - skill:
-      name: Programming Languages
-      info: "PHP, Python, Java, Javascript, Objective-C, C++"
-    - skill:
-      name: Markup Languages
-      info: "HTML, CSS, XML, JSON, Sass, Markdown"
-    - skill:
-      name: Systems
-      info: "Mac OS X, Microsoft Windows, Linux (Arch, Opensuse, Ubuntu & other distro's), Apple iOS, Google Android"
-    - skill:
-      name: Software & Tools
-      info: "Microsoft Office, Vim, Atom, Git, Gitkraken, Postman, Xcode, Apache, Adobe Master Collection, Netbeans IDE"
-    - skill:
-      name: Frameworks
-      info: "Django, WordPress, Slim, CodeIgniter, Bootstrap, jQuery"
-    - skill:
-      name: Databases
-      info: "SQLite, MySQL, MariaDB, PostgreSQL"
-    - skill:
-      name: Package Managers
-      info: "Pacman, npm, pip, Bower, Homebrew, Chocolatey, Zypper, Composer"
-    - skill:
-      name: Extra
-      info: "Good understanding of Networking & Hardware interfaces, Virtual Machines, Computer & Server maintenance"
+      name: IT
+      info: "Microsoft Office, Adobe InDesign, Adobe Photoshop, Mac OS X, MS Windows"
