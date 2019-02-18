@@ -17,6 +17,9 @@ style: bn-custom
 # uncomment the next line, if you want the education section displayed in main instead of the sidebar
 education_in_main: True
 
+# uncomment the next line, if you want the career-profile section displayed in main instead of the sidebar
+#career-profile_in_main: True
+
 # uncomment the next line, if you want the publications section displayed in main instead of the sidebar
 #publications_in_main: True
 
