@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% include career-profile.html %}
+{% if site.career-profile_in_main %}
+    {% include career-profile.html %}
+{% endif %}
 
 {% if site.education_in_main %}
     {% include education.html %}
