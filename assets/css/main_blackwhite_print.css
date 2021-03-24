@@ -1,10 +1,9 @@
 /*
- * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Template Name: ByNydenOnlineCVGradient
  * Version: 1.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
+ * Author: devbynyden
  * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
+ * Website: http://bynyden.com/
 */
 /* ======= Base ======= */
 body {
@@ -25,7 +24,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #35776d;
+  color: #087e8b;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -33,7 +32,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #1d423c;
+  color: #ff5a5f;
 }
 a:focus {
   text-decoration: none;
@@ -41,8 +40,17 @@ a:focus {
 p {
   line-height: 1.5;
 }
+#hidden-summary {
+    display: none;
+}
+.keyb-shortcuts {
+    display: none;
+}
+#help-button {
+    float: right;
+}
 .wrapper {
-  background: #4CAC9D;
+  background: #d34e24;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
@@ -51,13 +59,53 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4CAC9D;
-  position: absolute;
-  right: 0;
-  width: 280px;
-  height: 100%;
-  min-height: 800px;
-  color: #fff;
+    background: linear-gradient(120deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 800% 100%;
+    position: absolute;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+}
+.animate {
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+/* Gradient */
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 .sidebar-wrapper a {
   color: #fff;
@@ -91,7 +139,7 @@ p {
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list .fas, .sidebar-wrapper .contact-list .fab {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
@@ -102,7 +150,7 @@ p {
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .contact-list .email .fa {
+.sidebar-wrapper .contact-list .email .fas, .sidebar-wrapper .contact-list .location .fas, .sidebar-wrapper .contact-list .license .fas {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
@@ -167,26 +215,26 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #35776d;
+  color: #ff5a5f;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title .fa, .main-wrapper .section-title .fas, .main-wrapper .section-title .fab {
   width: 30px;
   height: 30px;
   margin-right: 8px;
   display: inline-block;
   color: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  border-radius: 20%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #35776d;
+  background: #ff5a5f;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -217,12 +265,12 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #adb4b4;
 }
 .main-wrapper .company,
 .main-wrapper .university {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #ff5a5f;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -266,7 +314,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #7ec6bb;
+  background: #f28123;
 }
 .footer {
   padding-top: 30px;
@@ -307,7 +355,7 @@ p {
     display: inline-block;
     float: left;
     width: 30%;
-    margin-bottom: 0;
+    margin-bottom: 6px;
   }
   .skillset .level-bar {
     display: inline-block;
@@ -319,4 +367,100 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-/* styles-2.css */
+/* styles.css */
+
+.go-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 1em;
+	display: none;
+}
+
+.go-top:hover {
+
+}
+/* Printing */
+@media print {
+
+    body {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .job-title, .project-title a, .publication-title {
+        font-size: 14px !important;
+    }
+
+    .main-wrapper .projects-section .item, .skillset .level-title, .main-wrapper .upper-row, .skillset .item, .main-wrapper .section-title {
+        margin-bottom: 0;
+    }
+
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+        min-height: 100px;
+    }
+    .main-wrapper {
+        padding: 30px;
+    }
+    .main-wrapper .time {
+        position: static;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .main-wrapper .section {
+        margin-bottom: 20px;
+    }
+
+    .go-top, .print-button, .copyright {
+        visibility: hidden;
+    }
+
+    .profile-container {
+        position: absolute;
+        right: 0;
+    }
+
+    .profile-img {
+        width: 100px;
+    }
+
+    .education-container {
+        position: absolute;
+        text-align: right;
+        right: 0;
+    }
+
+    .interests-list li, .contact-list li {
+        margin-bottom: 0 !important;
+    }
+
+    .footer {
+        visibility: hidden;
+        padding: 0;
+    }
+
+    #hidden-summary {
+        display: contents;
+    }
+    #summary-typer {
+        display: none;
+    }
+    .btn-block {
+        display: none;
+    }
+    .keyb-shortcuts {
+        display: none;
+    }
+    #help-button {
+        display: none;
+    }
+}

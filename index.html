@@ -20,6 +20,8 @@ layout: default
     {% include publications.html %}
 {% endif %}
 
-{% include skills.html %}
+{% if site.skills_in_main %}
+    {% include skills.html %}
+{% endif %}
 
 {% include misc.html %}
