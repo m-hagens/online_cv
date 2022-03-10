@@ -383,7 +383,7 @@ p {
 
 }
 /* Printing */
-@media print {
+/* @media print {
 
     body {
         padding: 0;
@@ -463,4 +463,4 @@ p {
     #help-button {
         display: none;
     }
-}
+} */

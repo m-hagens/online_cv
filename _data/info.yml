@@ -1,19 +1,18 @@
 #Profile information
 name: Marijn C. Hagens
 tagline: Project Manager & Marketeer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: "I am an ambitious and spontaneous Project Manager, ready for a new challenge in my career. 
-The last 5 years I've had the opportunity to develop my skills in different disciplines.I was able to grow professionally by being responsible for a wide range of projects, from building and creating an innovative setting for retailers to tackling the difficulties for the retail sector in a post-covid setting. I am a hard working, adventurous, hands-on and to the point person with a passion for project management and marketing.
-
+pic: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: "I am an ambitious and spontaneous Project Manager, ready for a new challenge in my career.
+The last 5 years I've had the opportunity to develop my skills in different disciplines.I was able to grow professionally by being responsible for a wide range of projects, from building and creating an innovative setting for retailers to tackling the difficulties for the retail sector in a post-covid setting. I am a hard working, adventurous, hands-on and to the point person with a passion for project management and marketing."
 #sidebar links
 dob: 02/07/1992
 gender: Female
 location: Antwerp, Belgium
-email: marijnhagens92@gmail.com
+email: marijnhagens@gmail.com
 license: "European category B"
 #phone: 012 345 6789
 #website: bynyden.com #do not add http://
-linkedin: marijn-hagens-3685384a
+linkedin: marijn-hagens
 #github: m-hagens
 #npm: devbynyden
 #keybase: bynyden
